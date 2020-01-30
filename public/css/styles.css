@@ -178,11 +178,14 @@ nav ul li a {
 
 @media(max-width: 786px) {
 
+    .ser-title{
+        margin-top:4rem;
+    }
     .icons{
         justify-content: center;
     }
     .abt-header{
-        height:150vh;
+        height:180vh;
     }
 
     .card{
@@ -190,7 +193,7 @@ nav ul li a {
     }
 
     .services-header{
-        height:90vh;
+        height:40vh;
     }
 
     .cutaway{
@@ -198,6 +201,7 @@ nav ul li a {
         margin: 5rem 1rem;
         widows: 50%;
         height: 50%;
+        display:none;
     }
     .main{
         padding:0rem;
@@ -218,7 +222,7 @@ nav ul li a {
     }
 
     .footer{
-        height:18rem;
+        height:16rem;
     }
 
     nav ul {
