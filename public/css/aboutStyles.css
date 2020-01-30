@@ -27,6 +27,10 @@ header{
     
 }
 
+.cutaway{
+    
+}
+
 nav{
     position: static;
 }
@@ -34,6 +38,22 @@ nav{
 .logo{
     position:absolute;
 }
+
+.lists{
+    line-height: 1.3rem;
+    font-size:1rem;
+    color:black;
+    padding:.1rem;
+}
+
+.light{
+    background-color:black;
+}
+
+.card{
+    margin:1rem;
+}
+
 .title{
     margin:2.4rem auto;
     color:white;

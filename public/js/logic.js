@@ -15,3 +15,59 @@ $(window).on("scroll", function() {
           $('nav').removeClass('black');
     }
 })
+
+$( ".blue" ).hover(
+      function() {
+        $( this ).css("box-shadow",".5rem .5rem blue");
+      }, function() {
+        $( this ).css( "box-shadow","none" );
+      }
+    );
+
+    $( ".red" ).hover(
+      function() {
+        $( this ).css("box-shadow",".5rem .5rem red");
+      }, function() {
+        $( this ).css( "box-shadow","none" );
+      }
+    );
+
+    $( ".green" ).hover(
+      function() {
+        $( this ).css("box-shadow",".5rem .5rem green");
+      }, function() {
+        $( this ).css( "box-shadow","none" );
+      }
+    );
+     
+    $( ".blue2" ).hover(
+      function() {
+        $( this ).css("box-shadow",".5rem .5rem lightblue");
+      }, function() {
+        $( this ).css( "box-shadow","none" );
+      }
+    );
+
+    $( ".yellow" ).hover(
+      function() {
+        $( this ).css("box-shadow",".5rem .5rem yellow");
+      }, function() {
+        $( this ).css( "box-shadow","none" );
+      }
+    );
+
+    $( ".gray" ).hover(
+      function() {
+        $( this ).css("box-shadow",".5rem .5rem gray");
+      }, function() {
+        $( this ).css( "box-shadow","none" );
+      }
+    );
+
+    $( ".black" ).hover(
+      function() {
+        $( this ).css("box-shadow",".5rem .5rem black");
+      }, function() {
+        $( this ).css( "box-shadow","none" );
+      }
+    );
