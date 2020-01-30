@@ -1,6 +1,4 @@
-header{
-    /* opacity; */
-}
+
 .bio{
     margin:1rem auto;
 }
@@ -27,9 +25,7 @@ header{
     
 }
 
-.cutaway{
-    
-}
+
 
 nav{
     position: static;
@@ -52,6 +48,9 @@ nav{
 
 .card{
     margin:1rem;
+    font-family: "Helvetica Neue",sans-serif;
+    width:14px;
+
 }
 
 .title{
@@ -68,12 +67,12 @@ nav{
     position:absolute;
 }
 
-.menu, .logo{
+/* .menu, .logo{
     font-size:1.6rem;
     font-weight:bold;
     text-shadow: 1px 1px black 
 
-}
+} */
 
 .pic{
     height:1rem;

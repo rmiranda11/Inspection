@@ -71,3 +71,10 @@ $( ".blue" ).hover(
         $( this ).css( "box-shadow","none" );
       }
     );
+
+    $(document).ready(function(){
+    $("#learn").click(function(){
+      $(".wrapper").attr("href","./../../services.html")
+      console.log("Clicked")
+    });
+});
