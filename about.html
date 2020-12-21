@@ -5,7 +5,7 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-   <title>Document</title>
+   <title>About</title>
   
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
@@ -21,7 +21,7 @@
       integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
       crossorigin="anonymous"></script>
 
-   
+      <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
 
    <!-- Font Awesome -->
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
@@ -33,6 +33,10 @@
 
    <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Lato|Open+Sans:300i&display=swap" rel="stylesheet">
 
+
+   <!-- AOS -->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
@@ -49,19 +53,16 @@
                <ul>
                   <li><a href="./index.html">Home</a></li>
                   <li><a href="./services.html">Services</a></li>
-               
-
+            
                </ul>
             </div>
             <div class="row main">
-               <p class="title">About Our Founder</p>
+               <p class="about-title">About Our Founder</p>
                <div class="row">
-                  <div class="bio col-sm-3">
-                     <img class="img-thumbnail" src="./public//photos/bio.jpeg" alt="Founder">
-                  </div>
-                  <div class="bio-div col-sm-6">
-                     <h2>Earnest McElwee</h2>
-                     <p class="bio-txt">Originally in real estate, a friend asked for his help with some inspections and Earnest was a
+
+                  <div class="bio-div col-sm-6" data-aos="zoom-in-down" data-aos-duration="1800">
+                     <h2 class="bio-title" data-aos="zoom-in-down" data-aos-duration="2500">Earnest McElwee</h2>
+                     <p class="bio-txt" data-aos="zoom-in-down" data-aos-duration="1800">Originally in real estate, a friend asked for his help with some inspections and Earnest was a
                         natural. A year later and an untimely death of a close friend led Earnest to make a sudden
                         decision: whether to continue with real estate or to expand into his true passion. He chose the
                         latter and 15 years later the passion grew even stronger. Earnest specializes with first time
@@ -70,6 +71,9 @@
                         true people person and loves to keep a simple yet upbeat dialogue to ensure that you are
                         informed but not bombarded with information that will inevitably be provided in your report at
                         the end of the inspection.<br>*PLEASE READ THE REPORT FULLY*</p><br><br>
+                  </div>
+                  <div class="bio col-sm-4" data-aos="zoom-in-down" data-aos-duration="1800">
+                     <img class="img-thumbnail" src="./public//photos/bio.jpeg" alt="Founder">
                   </div>
                </div>
             </div>
@@ -108,8 +112,12 @@
    </div>
 </body>
 
+<link rel="stylesheet" href="./public/css/reset.css">
 <link rel="stylesheet" href="./public/css/styles.css">
 <link rel="stylesheet" href="./public/css/aboutStyles.css">
+<link rel="stylesheet" href="./public/css/responsive.css">
 <script src="./public/js/logic.js"></script>
-
+<script>
+   AOS.init();
+ </script>
 </html>

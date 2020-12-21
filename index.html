@@ -2,14 +2,11 @@
 <html lang="pt-br">
 
 <head>
-   <!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-         <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-         <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-          -->
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
    <title>Phoenix Home Inspection</title>
+
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
@@ -24,7 +21,11 @@
       integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
       crossorigin="anonymous"></script>
 
+      <link rel="stylesheet" href="./public/css/reset.css">
       <link rel="stylesheet" href="./public/css/styles.css">
+      <link rel="stylesheet" href="./public/css/home.css">
+      <link rel="stylesheet" href="./public/css/responsive.css">
+      
 
    <!-- Font Awesome -->
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
@@ -34,13 +35,19 @@
       crossorigin="anonymous"></script>
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
+   <!-- Google Font -->
    <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Lato|Open+Sans:300i&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
 
+   <!-- AOS -->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
    <div class="wrapper">
-      <header>
+      <header class="header">
          <nav>
             <div class="menu-icon">
                <i class="fa fa-bars fa-2x"></i>
@@ -50,22 +57,17 @@
             </div>
             <div class="menu">
                <ul>
-                  <!-- <li><a href="#">Home</a></li> -->
                   <li><a href="./about.html">About</a></li>
                   <li><a href="./services.html">Services</a></li>
-                  <!-- <li><a href="#">Contact</a></li> -->
-
                </ul>
             </div>
          </nav>
          <div class="row">
             <div class="intro">
-               <p style="justify-content: center;">Chicago's Top Inspection Company</p>
-               <p style="font-family: 'Open Sans', sans-serif; font-size:1.3rem; justify-content:center;">Reporting the
+               <p class="title">Chicago's Top Inspection Company</p>
+               <p class="title-sub">Reporting the
                   condition of your future home through a specialized formula for inspection. </p> 
-                  <button type="button" onclick="location.href='./services.html';" id="learn" href="./services.html" class="btn btn-primary btn-lg" style="font-family:Arial, Helvetica, sans-serif">Learn More</button>
-                  <!-- <div class="row" style="margin-top:5rem;"><p class="d-flex justify-content-left" style="font-size:2rem; font-family: Arial, Helvetica, sans-serif; color:white;"><a href="tel:+7088462883">Call us at: (708)
-                        846-2883</a></p> -->
+                  <button type="button" onclick="location.href='./services.html';" id="learn" href="./services.html" class="btn btn-lg button" style="font-family:Arial, Helvetica, sans-serif">Learn More</button>
                      </div>
             </div>
          </div>
@@ -74,43 +76,45 @@
       </header>
       <div class="statement">
          <div class="row">
-            <p style="font-size:1.8rem;">Why do I need a home inspection?</p>
-            <p>Buying a home could be the largest single investment you will ever make. To minimize unpleasant surprises
-               and unexpected difficulties, you’ll want to learn as much as you can about the newly constructed or
-               existing house before you buy it. A home inspection may identify the need for major repairs or builder
-               oversights, as well as the need for maintenance to keep it in good shape. After the inspection, you will
-               know more about the house, which will allow you to make decisions with confidence.</p>
+            <div class="col-sm-6">
+               <p class="home-subtitle" data-aos="zoom-out-up" data-aos-duration="2000">Why do I need a home inspection?</p>
+               <p class="home-icon" data-aos="zoom-out-up" data-aos-duration="2000"> ❓  🏡 </p>
+               <p class="home-intro" data-aos="zoom-out-up" data-aos-duration="2000">Buying a home could be the largest single investment you will ever make. To minimize unpleasant surprises
+                  and unexpected difficulties, you’ll want to learn as much as you can about the newly constructed or
+                  existing house before you buy it. A home inspection may identify the need for major repairs or builder
+                  oversights, as well as the need for maintenance to keep it in good shape. After the inspection, you will
+                  know more about the house, which will allow you to make decisions with confidence.</p>
             </div>
-               <div class="row">
-            <h4 class="d-flex justify-content-center">Watch our seminar here:</h4>
-         </div>
-         <div class="row">
-            <div class="col-sm-6 d-flex justify-content-center vid embed-responsive embed-responsive-16by9">
-                  <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/8HIsA4DPD9s" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-         </div>
+            <div class="col-sm-6">
+               <h4 class="home-subtitle" data-aos="zoom-out-left" data-aos-duration="3000">Watch our Seminar</h4>
+               
+               <div class="d-flex justify-content-center vid embed-responsive embed-responsive-16by9" data-aos="zoom-out-right" data-aos-duration="2500">
+                     <iframe class="embed-responsive-item video" width="560" height="315" src="https://www.youtube.com/embed/8HIsA4DPD9s" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               </div>
+            </div></div>
+
+   <!-- Why choose us / our services / pricing -->
       </div>
       <div class="content">
-         <div class="row">
+         <div class="row" data-aos="zoom-out-up" data-aos-duration="1500">
             <div class="col-sm-3 icons">
-               <i class="fas fa-handshake fa-5x icon"></i>
-               <h3 class="title">Why Choose Us</h3>
+               <i class="fas fa-handshake fa-4x icon d-flex justify-content-center"></i>
+               <h3 class="content-title">Why Choose Us</h3>
                <hr>
-               <p class="together">Phoenix Real Estate Solutions is based out of the Chicagoland Area is a home and
-                  commercial inspection service. Our primary focus is to supply exceptional customer service and to
+               <p class="together">Based out of the Chicagoland Area, our primary focus is to supply exceptional customer service and to
                   facilitate your home inspection process.</p>
             </div>
             <div class="col-sm-3 icons">
-               <i class="fas fa-lightbulb fa-5x icon" style="color:orangered;"></i>
-               <h3 class="title">Our Services</h3>
+               <i class="fas fa-lightbulb fa-5x icon d-flex justify-content-center" style="color:orangered;"></i>
+               <h3 class="content-title">Our Services</h3>
                <hr>
                <p>Our company offers third-party municipal inspection and plan review services as well as private home
                   and commercial inspections.</p>
 
             </div>
             <div class="col-sm-3 icons">
-               <i class="fas fa-dollar-sign fa-5x icon"></i>
-               <h3 class="title">Pricing</h3>
+               <i class="fas fa-dollar-sign fa-5x icon d-flex justify-content-center"></i>
+               <h3 class="content-title">Pricing</h3>
                <hr>
                <p>We strive to keep our prices competitive. Our services begin at $350. Call now for a quote!</p>
                <p class="d-flex justify-content-center" style="font-size:1.5rem;"><a href="tel:+7088462883">(708)
@@ -159,5 +163,7 @@
 
 
 <script src="./public/js/logic.js"></script>
-
+<script>
+    AOS.init();
+  </script>
 </html>

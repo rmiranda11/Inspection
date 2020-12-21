@@ -12,19 +12,39 @@
 
 }
 
-.bio-txt{
-    font-size:1rem;
-    color:white;
-    line-height: 29px;
-    margin-bottom:1rem;
-    padding-bottom:2rem;
-    text-shadow: .7px .7px 1px black ;
-    font-weight: bolder;
-    /* opacity:110; */
-    /* background-color:white; */
-    
+.bio-div h2{
+    font-family: 'Lato', sans-serif;
+
 }
 
+header{
+    background-image: url("../photos/city2dark.jpg");
+}
+
+.abt-header{
+    background: url("../photos/city2dark.jpg") no-repeat 50% 50%;
+    background-size: cover;
+}
+
+nav{
+    position: static;
+}
+
+.logo{
+    position:absolute;
+}
+
+
+.bio-txt{
+    font-size:1.1rem;
+    color:rgb(255, 255, 255);
+    line-height: 33px;
+    margin-bottom:1rem;
+    padding-bottom:2rem;
+    text-shadow: .05rem .05rem .05rem black ;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
 
 
 nav{
@@ -46,26 +66,24 @@ nav{
     background-color:black;
 }
 
-.card{
-    margin:1rem;
-    font-family: "Helvetica Neue",sans-serif;
-    width:14px;
-
-}
-
 .title{
-    margin:2.4rem auto;
-    color:white;
+    margin:.4rem auto;
+    color:rgb(255, 255, 255);
     font-family: 'Great Vibes', cursive;
-    font-size:3em;
+    font-size:3.5em;
     justify-content:center;
     text-shadow: 1px 1px black 
-
 }
 
-.main{
-    position:absolute;
+.about-title{
+    margin:.4rem auto;
+    color:rgb(255, 255, 255);
+    font-family: 'Great Vibes', cursive;
+    font-size:3.5em;
+    justify-content:center;
+    text-shadow: 1px 1px black 
 }
+
 
 /* .menu, .logo{
     font-size:1.6rem;
@@ -78,3 +96,4 @@ nav{
     height:1rem;
     width:1rem;
 }
+

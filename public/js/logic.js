@@ -73,8 +73,10 @@ $( ".blue" ).hover(
     );
 
     $(document).ready(function(){
-    $("#learn").click(function(){
-      $(".wrapper").attr("href","./../../services.html")
-      console.log("Clicked")
+      $("#learn").click(function(){
+        $(".wrapper").attr("href","./../../services.html")
+        console.log("Clicked")
     });
 });
+
+
